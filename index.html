@@ -19,6 +19,8 @@
         * {
             font-family: gothic;
         }
+
+       main img{height:70px}
         
     </style>
     <!-- Basic color -->
@@ -35,13 +37,46 @@
       </script>
 </head>
 
-<body>
+<body class="h-screen bg-white ">
     <header class="bg-basic-color relative">
         <div class="p-10 absolute">
             <div class="logo px-5 py-8 bg-white w-[300px] color-black text-4xl text-center">LOGO HERE</div>
         </div>
         <h1 class="text-center text-white text-9xl font-extrabold py-8">TODAY'S MENU</h1>
     </header>
+    <main class="p-28 flex justify-around gap-14">
+        <div class="">
+            <h2 class="text-basic-color text-8xl font-bold mb-12">Vegetarian Entrée</h2>
+            <h3 class="text-gray-800 text-6xl font-bold mb-4">Orzo Salad</h3>
+            <p class="text-4xl text-gray-600">Fresh, Greek-style Orzo salad.</p>
+            <h3 class="text-gray-800 text-6xl font-bold mt-8 mb-8">$8.75</h3>
+            <div class="flex items-center">
+                <p class="text-4xl text-gray-600">Contains:</p>
+                <img src="Assets/icon-1.JPG" alt="">
+                <img src="Assets/icon-2.JPG" alt="">
+                <img src="Assets/icon-3.JPG" alt="">
+            </div>
+        </div>
+        <div class="border-r-4 border-basic-color"></div>
+        <div>
+            <h2 class="text-basic-color text-8xl font-bold mb-12">Main Entrée</h2>
+            <h3 class="text-gray-800 text-6xl font-bold mb-4">General Taos Chicken</h3>
+            <p class="text-4xl text-gray-600">Stir-fried chicken in a sweet-spicy Taos sauce<br>
+                served with jasmine rice .</p>
+            <h3 class="text-gray-800 text-6xl font-bold mt-8 mb-8">$8.75</h3>
+            <div class="flex items-center">
+                <p class="text-4xl text-gray-600">Contains:</p>
+                <img src="Assets/icon-4.JPG" alt="">
+                <img src="Assets/icon-5.JPG" alt="">
+                <img src="Assets/icon-3.JPG" alt="">
+            </div>
+        </div>
+    </main>
+    <footer class="bg-basic-color py-2 fixed w-full bottom-0">
+        <p class="text-center text-white">
+            We make every attempt to identify ingredients that may cause allergic reactions for those with food allergies and intolerances. However, there is always a risk of contamination. Our menus are subject to change. Please contact us with any questions or concerns.
+        </p>
+    </footer>
 </body>
 
 </html>
