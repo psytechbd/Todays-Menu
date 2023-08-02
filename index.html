@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Today's Menu</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <style>
+        /* Gothic Font  */
+        @font-face {
+            font-family: gothic;
+            src: url(Assets/TradeGothic-CondEighteen.otf);
+        }
+        
+        
+        * {
+            font-family: gothic;
+        }
+        
+    </style>
+    <!-- Basic color -->
+      <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                'basic-color': '#467C3B',
+              }
+            }
+          }
+        }
+      </script>
+</head>
+
+<body>
+    <header class="bg-basic-color relative">
+        <div class="p-10 absolute">
+            <div class="logo px-5 py-8 bg-white w-[300px] color-black text-4xl text-center">LOGO HERE</div>
+        </div>
+        <h1 class="text-center text-white text-9xl font-extrabold py-8">TODAY'S MENU</h1>
+    </header>
+</body>
+
+</html>
